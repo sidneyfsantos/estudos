@@ -1,45 +1,43 @@
-body {
-  margin: 0;  
-  padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
+/*Modelo menu vertical 1*/
+#menu1 a{ 
+  display: block;
+  width: 200px;
+  height: 40px;
+  text-decoration: none;
+  text-indent: 40px;
+  line-height: 40px;
+  background: url(/exercicios/imagens/menu.png) left;
+  color: black;
 }
-
-#area-principal{
-  width: 920px;
-}
-
-#area-postagens{
-  display: flex;
-  width: 660px;
-  border: 1px solid red;
-}
-#area-lateral{
-  width: 240px;
-  border: 1px solid red;
-}
-
-#menu a{
-  text-decoration: none;  
-  color: orange;
-  font-weight: bold;
-  font-size: 30px; 
-}
-#menu li{
-  list-style: none;
-  padding: 20px 20px;
-  background-color: #CCC;
-}
-
-#menu{
-  border: 1px solid rgb(68, 0, 255);
-  display: flex;
-  text-align: center;
-  justify-content: center;
+li{
+  list-style-type: none;
 }
 ul{
-  padding: 0 20px; 
-  border: 1px solid red;   
+  margin: 0px;
+  padding: 0;
 }
-#cabecalho h1{
-  text-align: center;
+#menu1 a:hover{
+  color: #fff;
+  background: url(/exercicios/imagens/menu.png) right;
 }
+
+/*Modelo menu vertical 2*/
+
+#menu2 a{  
+  display: block;
+  width: 200px;
+  height: 40px;
+  text-decoration: none;
+  line-height: 40px;
+  text-indent: 30px;
+  color: black;
+  background: url(/exercicios/imagens/seta.png) no-repeat center left;
+  background-color: rgb(245, 180, 59);  
+}
+
+#menu2 a:hover{
+  background: url(/exercicios/imagens/seta.png) no-repeat center right;
+  background-color: rgb(252, 165, 3);
+  color: white;
+}
+
