@@ -32,7 +32,7 @@ ul{
   text-indent: 30px;
   color: black;
   background: url(/exercicios/imagens/seta.png) no-repeat center left;
-  background-color: rgb(245, 180, 59);  
+  background-color: rgb(245, 180, 59);   
 }
 
 #menu2 a:hover{
@@ -40,4 +40,21 @@ ul{
   background-color: rgb(252, 165, 3);
   color: white;
 }
+/*Modelo menu vertical 2*/
 
+#menu3 a{
+  display: block;
+  width: 200px;
+  height: 40px;
+  background: url(/exercicios/imagens/botao.jpg);
+  text-align: center;
+  line-height: 40px;
+  text-decoration: none;
+  color: #fff;
+
+}
+#menu a:hover{
+  color: #fff;
+  background: url(/exercicios/imagens/botao_hover.jpg);
+
+}
